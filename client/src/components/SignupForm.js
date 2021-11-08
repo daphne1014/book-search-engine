@@ -36,10 +36,6 @@ const SignupForm = () => {
       });
       console.log(data)
 
-      // if (!response.ok) {
-      //   throw new Error('something went wrong!');
-      // }
-
       Auth.login(data.createUser.token);
     } catch (err) {
       console.error(err);
@@ -49,9 +45,7 @@ const SignupForm = () => {
 
   return (
     <>
-      {/* This is needed for the validation functionality above */}
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
-        {/* show alert if server response is bad */}
         <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
           Something went wrong with your signup!
         </Alert>
