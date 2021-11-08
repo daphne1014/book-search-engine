@@ -43,7 +43,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ## Table of Contents 
 - [UserStory](#userstory)
-- [Website] (#website)
+- [Website](#website)
 - [License](#license)
 - [Screenshot](#screenshot)
 - [Questions](#questions)
